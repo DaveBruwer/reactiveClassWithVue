@@ -18,6 +18,8 @@
         <button @click.prevent="myClass.doubleParam2">Run DoubleTwo</button>
     </div>
 
+    <h1>Change to test out development branch.</h1>
+
   
 </template>
 
