@@ -7,12 +7,15 @@
 
     <div>
         <label for="parameter1Input">Parameter1: </label>
-        <input id="parameter1Input" type="text" v-model="myClass.parameter1">
+        <input id="parameter1Input" type="text" v-model.lazy="myClass.parameter1">
     </div>
 
     <div>
         <label for="parameter2Input">Parameter2: </label>
-        <input id="parameter2Input" type="text" v-model="myClass.parameter2">
+        <input id="parameter2Input" type="text" v-model.lazy="myClass.parameter2">
+    </div>
+    <div>
+        <button @click.prevent="myClass.doubleParam2">Run DoubleTwo</button>
     </div>
 
   
