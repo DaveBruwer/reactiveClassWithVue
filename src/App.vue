@@ -19,6 +19,7 @@
     </div>
 
     <h1>Change to test out development branch.</h1>
+    <h1>Change to test out git shortcut.</h1>
 
   
 </template>
